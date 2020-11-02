@@ -17,7 +17,7 @@ if not mt5.initialize(path,login=login,server=server,password=password):
     quit()
  
 # display data on connection status, server name and trading account
-print(mt5.terminal_info())
+print(mt5.terminal_info()) 
 # display data on MetaTrader 5 version
 print(mt5.version())
  
