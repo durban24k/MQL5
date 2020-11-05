@@ -3,7 +3,7 @@ from config import login_info
 
 # initialize server variables (login details)
 path=login_info["path"]
-login=login_info["login"]
+login=login_info["login"]    
 server=login_info["server"]
 password=login_info["password"]
 
