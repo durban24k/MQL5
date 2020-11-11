@@ -4,7 +4,7 @@ import pandas as pd
 
 # initialize server variables (login details)
 path=login_info["path"]
-login=login_info["login"]    
+login=login_info["login"]
 server=login_info["server"]
 password=login_info["password"]
 
@@ -22,7 +22,6 @@ print(mt5.version())
 # display data on connection status, server name and trading account
 terminal_info=mt5.terminal_info()
 
- 
 if terminal_info!=None:
     # display the terminal data 'as is'
     print(terminal_info)
